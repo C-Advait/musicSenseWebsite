@@ -1,0 +1,11 @@
+mat-grid-list {
+    background-color: tomato;
+    margin: 10px;
+    border-style: solid;
+    width: 75%;
+    float: right
+}
+
+mat-grid-tile {
+    background-color: teal;
+}
