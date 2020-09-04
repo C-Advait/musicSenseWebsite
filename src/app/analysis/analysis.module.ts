@@ -2,15 +2,17 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { AnalysisComponent } from './analysis.component';
-import { DisplayComponentComponent } from './display-component/display-component.component';
+import { DisplayComponent } from './display/display.component';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
     AnalysisComponent,
-    DisplayComponentComponent,
+    DisplayComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatGridListModule
   ],
   exports: [ 
     AnalysisComponent
